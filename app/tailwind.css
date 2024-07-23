@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --dark-gray: #1a1f25;
-    --light-gray: #3a4a5a;
-    --button-bg: #2b3745;
-    --button-bg-dark: #0b151e;
-    --button-text: rgba(255, 255, 255, 0.66);
-}
-
-body {
-    background-color: var(--dark-gray);
-    color: var(--button-text);
-}
-
 .button {
     min-width: 120px;
     position: relative;
@@ -24,9 +11,9 @@ body {
     border-radius: 7px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
     background: radial-gradient(ellipse at bottom,
-            var(--button-bg) 0%,
-            var(--button-bg-dark) 45%);
-    color: var(--button-text);
+            rgba(71, 81, 92, 1) 0%,
+            rgb(4, 18, 29) 45%);
+    color: rgba(255, 255, 255, 0.66);
     transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
 }
 
@@ -53,12 +40,4 @@ body {
 
 .button:hover::before {
     opacity: 1;
-}
-
-.bg-dark-gray {
-    background-color: var(--dark-gray);
-}
-
-.border-light-gray {
-    border-color: var(--light-gray);
 }
