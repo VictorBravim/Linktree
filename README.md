@@ -1,40 +1,52 @@
-# Welcome to Remix!
+# 🌐 Linktree
 
-- 📖 [Remix docs](https://remix.run/docs)
+![image 6 (1)](https://github.com/user-attachments/assets/a98eebfa-097d-4c52-9aec-905ae0974f4b)
 
-## Development
+## 🚀 Overview
 
-Run the dev server:
+Linktree is an interactive website project developed using Remix, TypeScript, and Tailwind CSS. The project offers a modern and responsive interface, with distinct sections to present information and interact with the user. The application is designed to provide a fluid and visually appealing user experience by leveraging the latest front-end technologies.
 
-```shellscript
+## 📋 Requirements
+
+- Node.js
+- Remix
+- TypeScript
+- Tailwind CSS
+- React Icons
+- Framer Motion
+
+## 🔧 Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/VictorBravim/Linktree.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd Linktree
+```
+
+3. Install the dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
 npm run dev
 ```
 
-## Deployment
+## 🛠️ Project Rules
 
-First, build your app for production:
+- src/root.tsx: The root component that serves as the main entry point for the application.
+- src/routes/_index.tsx: The single route file that contains the entire project layout, including sections for introduction, project details, and contact information.
+- src/styles: Global styles and Tailwind CSS configuration.
 
-```sh
-npm run build
-```
+## 📄 License
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- This project is licensed under the [MIT License](LICENSE).
