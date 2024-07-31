@@ -10,7 +10,7 @@ Linktree is an interactive website project developed using Remix, TypeScript, an
 
 - Node.js
 - Remix
-- TypeScript
+- TypeScript 
 - Tailwind CSS
 - React Icons
 - Framer Motion
