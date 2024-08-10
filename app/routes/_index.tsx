@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaInstagram, FaFigma, FaGlobe } from 'react-icons/fa';
+import Logo from '/logo.png';
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
         backgroundPosition: 'center'
       }}
     >
+      
       <motion.div
         className="space-y-4 w-full max-w-xs"
         initial="hidden"
